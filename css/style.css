@@ -187,6 +187,28 @@ ESTRUTURA BASE
 
 .QSmeta{
     color: black;
+    padding-bottom: 20px;
+}
+
+.QSResumo{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 700;
+  
+   
+}
+
+.container-fluid.BoxBlue{
+    background-color: rgb(55, 55, 172);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+   
+   
 }
 
 /***** PÁGINA Blog*/
@@ -237,6 +259,16 @@ ESTRUTURA BASE
 
 /***** PÁGINA SERVIÇO*/
 
+.SResumo{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 700;
+  
+   
+}
 
 
 /***** EXTRAS*/
