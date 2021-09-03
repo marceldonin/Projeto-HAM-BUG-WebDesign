@@ -178,8 +178,18 @@ ESTRUTURA BASE
 
 .contato_endereco{
     color: white;
-    padding-top: 20px;
+    padding-top: 40px;
     
+   
+}
+
+.CBoxBlue{
+    background-color: rgb(55, 55, 172);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+   
    
 }
 
@@ -218,13 +228,24 @@ ESTRUTURA BASE
     padding-bottom: 20px;    
 }
 
-.fundo{
+.FundoBox{
     background-color: rgb(55, 55, 172);
     padding-left: 50px;
     padding-right: 25px;
     padding-bottom: 40px;
     padding-top: 50px;
     margin-bottom: 60px;
+}
+
+.BlogBoxBlue{
+    background-color: rgb(55, 55, 172);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    padding-top: 110px;
+    margin-bottom: 60px;
+   
+   
 }
 
 .BlogResumoArtigos{
