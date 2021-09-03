@@ -109,11 +109,17 @@ ESTRUTURA BASE
 }
 
 .boxQS{
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 450px;
+    margin-right: 450px;
     padding-top: 30px;
+
 }
 
+.DescQS{
+    font-weight: 700;
+    font-size: large;
+
+}
 
 
 .btn.btn-danger{
@@ -121,13 +127,6 @@ ESTRUTURA BASE
     
 }
 
-.col-mg-4.rotacionar{
-    display: flex;
-    padding-left: 50px;
-    padding-right: 25px;
-    padding-bottom: 50px;
-    
-}
 
 .form-group{
     text-align: left;
@@ -164,12 +163,14 @@ ESTRUTURA BASE
 
 
 /***** PÁGINA INICIAL*/
-.blog_resumo{
+.BlogResumoIndex{
     color: white;
     padding-top: 30px;
-    padding-bottom: 10;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-weight: 700;
+    font-size: large;
    
 }
 
@@ -200,7 +201,7 @@ ESTRUTURA BASE
     padding-left: 50px;
     padding-right: 25px;
     padding-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 50px;
     margin-bottom: 60px;
 }
 
@@ -218,7 +219,20 @@ ESTRUTURA BASE
 }
 
 .ArtigoTabulacao{
-    padding-inline-start: 20px;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+    
+}
+
+.BlogResumo{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 700;
+    font-size: large;
+   
 }
 
 /***** PÁGINA SERVIÇO*/
@@ -227,4 +241,29 @@ ESTRUTURA BASE
 
 /***** EXTRAS*/
 
+@keyframes aumentarLargura{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes aumentarAltura{
+    from{
+        height: 0;
+    }
+    to{
+        height: 100%;
+    }
+}
+
 /***** @MEDIA*/
+
+@media only screen and (min-width: 991px){
+
+    header  {
+        flex-basis: 70%;
+    }
+}
