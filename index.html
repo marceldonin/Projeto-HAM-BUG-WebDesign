@@ -24,6 +24,13 @@ Version: 1.0
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+    <!--<script src="https://unpkg.com/scrollreveal"></script>-->
+
+
+
     
     
     <title>HAM BUG - WEB DESIGN</title>
@@ -31,7 +38,9 @@ Version: 1.0
 
 
 <body>
-    <header>
+
+
+    <header class="headline" >
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">
                 <img src="img/Proposta01_r02sf.png" alt="Logo_HAM_BUG" width="220">
@@ -58,7 +67,7 @@ Version: 1.0
         </nav>  
     </header>
 
-    <section id="idslogan">
+    <section class="headline">
         <div class="container-fluid slogan">
             <div class="row text-center">
                 <h1 class="titulos1">SUA IDEIA É IMPORTANTE PARA NÓS!</h3>
@@ -81,7 +90,7 @@ Version: 1.0
 
 
 
-    <section id="idquemsomos">
+    <section class="headline">
         <div class="container-fluid quem-somos text-center">
             <h3 class="titulos">POR QUE NOS ESCOLHER?</h3>
             <img src="img/pexels-fauxels-3184418.jpg" class="rounded-circle" alt="Quem Somos" width="400" height="400">
@@ -117,7 +126,7 @@ Version: 1.0
 
 
 
-    <section id="idblog">
+    <section class="headline">
         <div class="container-fluid blogg text-center">
             <h3 class="titulos">ACESSE NOSSOS CONTEÚDOS PARA FICAR ATUALIZADO</h3>
         </div>
@@ -155,7 +164,7 @@ Version: 1.0
     </section>
 
 
-    <section id="idcontato">
+    <section class="headline">
         <div class="container contatoo text-center">
             <h3 class="titulos">CONTATOS</h3>
           
@@ -171,7 +180,7 @@ Version: 1.0
     </section>
     
 
-    <footer class="container-fluid bg_footer">
+    <footer class="container-fluid bg_footer headline">
         
         <div class="container text-center">
             <p>
@@ -212,5 +221,18 @@ Version: 1.0
 
    <!--ÁREA DOS SCRIPTS
    <script type="text/javascript" src="script.js"></script> -->
+
+   
+   <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.1/scrollreveal.min.js"></script>
+ 
+
 </body>
+
+<script>
+   window.sr = ScrollReveal();
+   
+   sr.reveal(".headline");
+ 
+</script>
+
 </html>
