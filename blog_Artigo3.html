@@ -1,5 +1,5 @@
 <!--
-Theme Name: Avaliação Dissertativa 01
+Theme Name: Avaliação Dissertativa 02
 Class: T72021
 Subject: Linguagem HTML, CSS e JavaScript (56h)
 Theme URI: https://marceldonin.github.io/Projeto-HAM-BUG-WebDesign/
@@ -29,7 +29,7 @@ Version: 1.0
 
 
 <body>
-    <header>
+    <header class="headline">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">
                 <img src="img/Proposta01_r02sf.png" alt="Logo_HAM_BUG" width="220">
@@ -58,7 +58,7 @@ Version: 1.0
     
     
 
-    <section id="idblog">
+    <section class="headline">
         <div class="container-fluid Bespaco text-center">
             <h3 class="titulos">BLOG</h3>
         </div>
@@ -177,7 +177,7 @@ Version: 1.0
     
     
 
-    <footer class="container-fluid bg_footer">
+    <footer class="container-fluid bg_footer headline">
         
         <div class="container text-center">
             <p>
@@ -217,6 +217,22 @@ Version: 1.0
    
 
    <!--ÁREA DOS SCRIPTS
-   <script type="text/javascript" src="script.js"></script> -->
+     
+   <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.1.1/scrollreveal.min.js"></script>
+
+
+    Script que faz o aparecimento do conteúdo quando rola para baixo o scroll do mouse!
+                                                                                                -->
+ 
+   <script type="text/javascript" src="js/script.js"></script>
+
 </body>
+
+<script>
+   window.sr = ScrollReveal();
+   
+   sr.reveal(".headline");
+ 
+</script>
+
 </html>
